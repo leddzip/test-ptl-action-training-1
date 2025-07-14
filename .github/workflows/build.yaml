@@ -23,7 +23,7 @@ jobs:
         run: uv build
 
       - name: upload artifact
-        uses: action/upload-artifact@v3
+        uses: action/upload-artifact@v4
         with:
           name: project-buid.whl
           path: |
