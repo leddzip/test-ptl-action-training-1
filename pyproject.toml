@@ -1,0 +1,17 @@
+[project]
+name = "test-ptl-action-training-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Leddzip", email = "leddzip@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+test-ptl-action-training-1 = "test_ptl_action_training_1:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
