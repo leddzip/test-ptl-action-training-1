@@ -18,7 +18,8 @@ jobs:
       # ENV Vars
       - name: Set the value in env vars
         run: |
-          echo "$GITHUB_ENV"
+          echo "GITHUB_ENV name: $GITHUB_ENV"
+          echo "::debug::GITHUB_ENV content:"
           cat "$GITHUB_ENV"
           echo "action_state=yellow" >> $GITHUB_ENV
       - name: Use the value from env vars
