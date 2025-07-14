@@ -1,8 +1,8 @@
-on: [push]
-#  release:
-#    types: [created]
-#    branches:
-#      - master
+on:
+  release:
+    types: [created]
+    branches:
+      - master
 
 jobs:
   test-build-and-publish:
