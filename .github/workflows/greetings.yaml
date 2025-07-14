@@ -10,3 +10,4 @@ jobs:
         shell: bash
         run: |
           echo "coucou"
+          echo "${{github.actor}}
