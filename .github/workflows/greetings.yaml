@@ -3,7 +3,7 @@ name: "Greet Contributor"
 on: [push]
 
 jobs:
-  GreetCommitter:
+  "Greet committer in console":
     runs-on: ubuntu-latest
     steps:
       - name: "Greet contributor"
